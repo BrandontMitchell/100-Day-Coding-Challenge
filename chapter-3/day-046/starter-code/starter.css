@@ -1,0 +1,42 @@
+body {
+     font-family: "Segoe UI", Tahoma, sans-serif;
+}
+
+h1 {
+     font-size: 6em;
+}
+
+h2 {
+     font-size: 3em;
+}
+
+ul {
+     text-align: center;
+     display: inline-block;
+     list-style-type: none;
+}
+
+li {
+     padding-top: 1em;
+     font-size: 2em;
+}
+
+h1, h2, div, p {
+     text-align: center;
+}
+
+p {
+     font-size: 3em;
+}
+
+input, button {
+     font-size: 1.5em;
+}
+
+span {
+     color: #bdbdbd;
+}
+
+.hidden {
+     display: none;
+}

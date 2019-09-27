@@ -1,0 +1,182 @@
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 10pt;
+  text-align: center;
+}
+
+h1 {
+  font-size: 26pt;
+  margin-bottom: 40px;
+}
+
+.box {
+  border: 1px solid #111;
+}
+
+.box:hover {
+  box-shadow: 0px 0px 3px 3px #111;
+  cursor: pointer;
+}
+
+.box, .col-num-box, .row-num-box {
+  line-height: 24pt;
+}
+
+.box, .col-num-box, #empty-square, #left-nums, #top-nums {
+  float: left;
+}
+
+.clear, #left-nums, #puzzle {
+  clear: both;
+}
+
+.col-num-box, #top-nums {
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+}
+
+#empty-square {
+  border-top: 3px solid black;
+  background-color: #111;
+}
+
+#clear {
+  font-size: 18pt;
+  margin-top: 20px;
+  padding: 5px;
+}
+
+.crossed-out {
+  background-image: url("https://courses.cs.washington.edu/courses/cse154/18sp/18sp-data/lab/lab04/slides/hidden/img/x.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.filled {
+  background-color: #000;   
+}
+
+#grid {
+  border: 1px solid #000;
+  border-right: 2px solid #000;
+  display: table;
+}
+
+#puzzle {
+  display: inline-block;
+}
+
+.left-row, .row-num-box {
+  float: right;
+}
+
+#left-nums, .left-row {
+  border-top: 1px solid #000;
+  border-bottom: 1px solid #000;
+}
+
+#left-nums, #empty-square {
+  border-left: 3px solid #000;
+}
+
+#top-nums {
+  border-top: 3px solid #000;
+}
+
+.thick-right-border {
+  border-right: 2px solid black;
+}
+
+.thick-top-border {
+  border-top: 2px solid black;
+}
+
+.horizontal-divider {
+  border-bottom: 2px solid black;
+}
+
+.vertical-divider {
+  border-left: 2px solid black;
+}
+
+.fifteen .box, .fifteen .col-num-box, .fifteen .row-num-box {
+  width: 30px;
+  height: 30px;
+}
+
+.fifteen #left-nums, .fifteen .left-row {
+  width: 100px;
+}
+
+.five #left-nums, .five .left-row, .five #empty-square {
+  width: 140px;
+}
+
+.five .box, .five .col-num-box, .five .row-num-box {
+  width: 70px;
+  height: 70px;
+  line-height: 70px;
+}
+
+.five #empty-square {
+  height: 140px;
+}
+
+.five {
+  font-size: 18pt;
+}
+
+.ten {
+  font-size: 16pt;
+}
+
+.fifteen, .twenty {
+  font-size: 12pt;
+}
+
+.ten #left-nums, .ten .left-row, .ten #empty-square {
+  width: 120px;
+}
+
+.ten #empty-square {
+  height: 120px;
+}
+
+.ten .box, .ten .col-num-box, .ten .row-num-box {
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+}
+
+.fifteen #empty-square {
+  height: 120px;
+  width: 100px;
+}
+
+.twenty #left-nums, .twenty .left-row, .twenty #empty-square {
+  width: 80px;
+}
+
+.twenty .box, .twenty .col-num-box, .twenty .row-num-box {
+  width: 20px;
+  height: 20px;
+  line-height: 20px;
+}
+
+.twenty #empty-square {
+  height: 80px;
+}
+
+.twenty-five #left-nums, .twenty-five .left-row, .twenty-five #empty-square {
+  width: 90px;
+}
+
+.twenty-five .box, .twenty-five .col-num-box, .twenty-five .row-num-box {
+  width: 15px;
+  height: 15px;
+  line-height: 15px;
+}
+
+.twenty-five #empty-square {
+  height: 90px;
+}
